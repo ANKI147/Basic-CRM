@@ -1,0 +1,26 @@
+{
+  "name": "crm",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/ANKI147/Crazy-stuff#readme",
+  "bugs": {
+    "url": "https://github.com/ANKI147/Crazy-stuff/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ANKI147/Crazy-stuff.git"
+  },
+  "license": "ISC",
+  "author": "Ankit More",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./index.js"
+  },
+  "dependencies": {
+    "body-parser": "^2.3.0",
+    "express": "^5.2.1",
+    "mongoose": "^9.9.2",
+    "nodemon": "^3.1.14"
+  }
+}

@@ -1,0 +1,14 @@
+$kind: http-request
+name: New Request
+description: ""
+url: localhost:3000/contact/6a81f1d70a974c9bfea02e39
+method: GET
+body:
+  type: urlencoded
+  content:
+    firstname: Rohit
+    lastname: Singh
+    company: Sonatus-Onsite
+    phone: "8888899994"
+    email: rohit@example.com
+order: 1786900858139
